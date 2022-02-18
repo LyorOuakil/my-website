@@ -26,11 +26,17 @@ function Sidebar() {
                 </svg>
             )}
             <div
-                className={`top-0 left-0 bg-white p-10 pl-20 text-black fixed h-full xs:w-full sm:w-full ease-in-out duration-300 ${
+                className={`top-0 left-0 bg-white p-10 pl-20 text-black flex fixed h-full xs:w-full sm:w-full ease-in-out duration-300 ${
                     showSidebar ? 'translate-y-0' : 'translate-y-full'
                 }`}
             >
-                Hello
+                <div className="justify-center">
+                    <ul>
+                        <li>What I did</li>
+                        <li>What I do</li>
+                        <li>What I learn</li>
+                    </ul>
+                </div>
             </div>
         </>
     )
